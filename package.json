@@ -4,8 +4,10 @@
   "scripts": {
     "lint": "run-p -c -l lint:**",
     "lint:prettier": "prettier --check .",
+    "lint:markdownlint": "markdownlint \"articles/**/*.md\"",
     "fix": "run-s -l fix:**",
     "fix:prettier": "prettier --write .",
+    "fix:markdownlint": "markdownlint -f \"articles/**/*.md\"",
     "postinstall": "husky install"
   },
   "devDependencies": {
@@ -15,6 +17,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.8",
+    "markdownlint": "^0.25.1",
+    "markdownlint-cli": "^0.31.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.6.2",
     "semantic-release": "^19.0.2",
