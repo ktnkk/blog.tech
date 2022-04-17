@@ -1,0 +1,8 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "textlint-rule-preset-japanese": true
+  }
+}

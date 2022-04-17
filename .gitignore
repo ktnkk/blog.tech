@@ -209,3 +209,6 @@ dist
 
 # macOS
 .DS_Store
+
+# textlint
+.textlintcache
