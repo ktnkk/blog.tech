@@ -1,5 +1,6 @@
 {
   "name": "blog.tech",
+  "private": true,
   "devDependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
